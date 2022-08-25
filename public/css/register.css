@@ -1,0 +1,57 @@
+@import url(style.css);
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentRegister{
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgb(102, 100, 100);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 300px;
+}
+
+.contentInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.contentInput input{
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.contentInput label{
+    color: lightslategrey;
+    font-size: 12px;
+}
+
+.intereses{
+    margin-bottom: 1rem;
+}
+
+.btn button{
+    width: 48%;
+    height: 30px;
+    background-color: rgb(64, 64, 240);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn button:nth-child(2){
+    background-color: red;
+    margin-left: .4rem;
+}
+
+.perfilUser select{
+    height: 30px;
+    border-radius: 3px;
+}

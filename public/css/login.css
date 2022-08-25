@@ -1,0 +1,49 @@
+@import url(style.css);
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentLogin{
+    width: 60%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(102, 100, 100);
+    padding: 2rem;
+    max-width: 900px;
+}
+
+.contentInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.contentInput label{
+    color: lightslategrey;
+    font-size: .8rem;
+}
+
+.contentInput input{
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.btnForm{
+    width: 100%;
+    color: white;
+    background-color: rgb(68, 68, 248);
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+}
+
+.btnForm:hover{
+    background-color: #0022AA;
+}
